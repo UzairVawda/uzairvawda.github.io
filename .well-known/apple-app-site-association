@@ -1,0 +1,10 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["8DTWMJCL5L.com.uzairvawda.kite"],
+        "components": [{ "/": "/kite/plaid-oauth*", "comment": "Plaid OAuth return" }]
+      }
+    ]
+  }
+}
