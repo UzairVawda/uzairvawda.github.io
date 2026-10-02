@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kite Privacy Policy</title>
+<style>
+  :root { --bg: #ffffff; --text: #1d1d1f; --muted: #6e6e73; --rule: #e5e5ea; --link: #0066cc; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #000000; --text: #f5f5f7; --muted: #a1a1a6; --rule: #2c2c2e; --link: #4da3ff; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 72px; }
+  h1 { font-size: 34px; line-height: 1.15; margin: 0 0 8px; }
+  h2 { font-size: 21px; margin: 40px 0 8px; }
+  p, li { margin: 0 0 12px; }
+  ul { padding-left: 22px; }
+  a { color: var(--link); }
+  .meta { color: var(--muted); margin-bottom: 32px; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0 16px; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 8px 10px 0; border-top: 1px solid var(--rule); }
+  th { font-weight: 600; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Kite Privacy Policy</h1>
+<p class="meta">Effective October 1, 2026</p>
+
+<p>Kite is a personal finance app for iPhone, run by Uzair Vawda. It shows you where your money goes. It is invite-only and used by a small group of people the owner knows personally. This policy explains what Kite collects, why, and how you can have it deleted.</p>
+
+<p>The short version: Kite uses your data only to show it back to you. It does not sell your data, share it for advertising, or give financial advice.</p>
+
+<h2>What Kite collects</h2>
+<table>
+  <tr><th>Data</th><th>Why</th></tr>
+  <tr><td>Your phone number</td><td>To sign you in with a one-time code and to check that you were invited.</td></tr>
+  <tr><td>Bank data from Plaid: account names, the last four digits of account numbers, account types, balances, and transactions (date, amount, merchant, description)</td><td>To show your accounts, spending, and reports.</td></tr>
+  <tr><td>What you add in Kite: labels, merchant rules, budgets, and settings</td><td>To organize your transactions the way you choose.</td></tr>
+  <tr><td>A record of sensitive actions (for example, connecting or removing a bank)</td><td>Security, so unusual activity on your account can be spotted.</td></tr>
+</table>
+<p>Kite never sees or stores your bank username or password. You type those into Plaid, not Kite. Face ID is handled entirely by your iPhone; Kite never receives your face data. Kite has no ads, no analytics, and no tracking.</p>
+
+<h2>Who processes your data</h2>
+<ul>
+  <li><strong>Plaid</strong> connects Kite to your bank. Plaid's handling of your data is described in the <a href="https://plaid.com/legal/#end-user-privacy-policy">Plaid End User Privacy Policy</a>.</li>
+  <li><strong>Supabase</strong> hosts Kite's database and server code in the United States.</li>
+  <li><strong>Twilio</strong> sends your sign-in codes by text message.</li>
+</ul>
+<p>Kite does not share your data with anyone else, except where the law requires it.</p>
+
+<h2>How your data is protected</h2>
+<ul>
+  <li>Your data is encrypted in transit and at rest.</li>
+  <li>Database rules let your account reach only your own data, and automated tests check this on every change.</li>
+  <li>Bank access is read-only. Kite cannot move money.</li>
+  <li>The keys Plaid issues for your bank connections are encrypted and can only be used by Kite's server.</li>
+  <li>The app locks with Face ID or your passcode every time it opens.</li>
+</ul>
+
+<h2>How long Kite keeps your data</h2>
+<ul>
+  <li><strong>While you use Kite</strong>, your data is kept so your history and reports work.</li>
+  <li><strong>When you disconnect a bank</strong>, Kite revokes its access at Plaid immediately and stops syncing. You choose whether to keep that bank's past transactions or delete them right away.</li>
+  <li><strong>If you haven't opened Kite in 12 months</strong>, you'll be asked whether you still want your account. With no reply after 30 days, it is deleted.</li>
+  <li>Kite keeps no backups, so deleted data cannot be recovered.</li>
+</ul>
+
+<h2>Deleting your data</h2>
+<p>Email <a href="mailto:uzair.vawda@gmail.com?subject=Kite%20data%20deletion">uzair.vawda@gmail.com</a> from any address and include the phone number you sign in with. Within 30 days, every bank connection will be revoked at Plaid and all your data deleted from Kite. You'll get an email when it's done. A delete button inside the app is coming.</p>
+<p>You can also email to ask for a copy of your data or to correct it.</p>
+
+<h2>Children</h2>
+<p>Kite is not for anyone under 18.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version will be posted here with a new effective date. If a change affects how your data is used, you'll be told in the app or by text before it applies.</p>
+
+<h2>Contact</h2>
+<p>Questions: <a href="mailto:uzair.vawda@gmail.com">uzair.vawda@gmail.com</a></p>
+
+<footer>Kite · Uzair Vawda</footer>
+</main>
+</body>
+</html>
