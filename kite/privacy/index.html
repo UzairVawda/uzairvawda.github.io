@@ -27,7 +27,7 @@
 <body>
 <main>
 <h1>Kite Privacy Policy</h1>
-<p class="meta">Effective October 1, 2026</p>
+<p class="meta">Effective October 10, 2026</p>
 
 <p>Kite is a personal finance app for iPhone, run by Uzair Vawda. It shows you where your money goes. It is invite-only and used by a small group of people the owner knows personally. This policy explains what Kite collects, why, and how you can have it deleted.</p>
 
@@ -36,7 +36,9 @@
 <h2>What Kite collects</h2>
 <table>
   <tr><th>Data</th><th>Why</th></tr>
-  <tr><td>Your phone number</td><td>To sign you in with a one-time code and to check that you were invited.</td></tr>
+  <tr><td>Your phone number</td><td>To check that you were invited, and to text you a code when you set up your account or reset your password.</td></tr>
+  <tr><td>A secret key for your authenticator app</td><td>Signing in takes your password and a 6-digit code from an authenticator app, such as the iPhone Passwords app. The key that produces those codes is stored by Supabase, Kite's sign-in provider, so it can check them.</td></tr>
+  <tr><td>Your name and email</td><td>To greet you in the app and to contact you about your account. Kite never sends marketing.</td></tr>
   <tr><td>Bank data from Plaid: account names, the last four digits of account numbers, account types, balances, and transactions (date, amount, merchant, description)</td><td>To show your accounts, spending, and reports.</td></tr>
   <tr><td>What you add in Kite: labels, merchant rules, budgets, and settings</td><td>To organize your transactions the way you choose.</td></tr>
   <tr><td>A record of sensitive actions (for example, connecting or removing a bank)</td><td>Security, so unusual activity on your account can be spotted.</td></tr>
@@ -47,12 +49,13 @@
 <ul>
   <li><strong>Plaid</strong> connects Kite to your bank. Plaid's handling of your data is described in the <a href="https://plaid.com/legal/#end-user-privacy-policy">Plaid End User Privacy Policy</a>.</li>
   <li><strong>Supabase</strong> hosts Kite's database and server code in the United States.</li>
-  <li><strong>Twilio</strong> sends your sign-in codes by text message.</li>
+  <li><strong>Twilio</strong> sends the text-message codes used when you set up your account or reset your password.</li>
 </ul>
 <p>Kite does not share your data with anyone else, except where the law requires it.</p>
 
 <h2>How your data is protected</h2>
 <ul>
+  <li>Signing in takes your password and a code from your authenticator app.</li>
   <li>Your data is encrypted in transit and at rest.</li>
   <li>Database rules let your account reach only your own data, and automated tests check this on every change.</li>
   <li>Bank access is read-only. Kite cannot move money.</li>

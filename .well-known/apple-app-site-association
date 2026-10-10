@@ -6,5 +6,8 @@
         "components": [{ "/": "/kite/plaid-oauth*", "comment": "Plaid OAuth return" }]
       }
     ]
+  },
+  "webcredentials": {
+    "apps": ["8DTWMJCL5L.com.uzairvawda.kite"]
   }
 }
